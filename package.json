@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/uuid": "^8.3.0",
+    "@vercel/node": "^1.9.1"
+  },
+  "name": "wakeup-call",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cameronmoreau/wakeup-call.git",
+  "author": "Cameron Moreau <cameron.cm6@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.13.0",
+    "aws-sdk": "^2.889.0",
+    "twilio": "^3.60.0",
+    "uuid": "^8.3.2"
+  }
+}
